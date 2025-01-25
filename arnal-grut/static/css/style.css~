@@ -71,5 +71,5 @@ footer {
 }
 
 h1 {
-	font-size: max(3vw, 48px);
+	font-size: max(3vw, 56px);
 }
