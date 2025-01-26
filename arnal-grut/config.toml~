@@ -2,17 +2,6 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
-    [menus]
-  [[menus.header]]
-    name = 'Accueil'
-    url = '/'
-    weight = 10
-  [[menus.header]]
-    name = 'Contact'
-    url = '/contact'
-    weight = 20
-
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]

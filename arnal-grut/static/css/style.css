@@ -60,6 +60,12 @@ body {
 	display:flex;
 }
 
+nav ul {
+	display:flex;
+	gap: max(2vw, 24px);
+	padding: 16px 24px;
+}
+
 main {
 	height: 100vh;
 	padding: max(5vw, 24px); /* 5vw tant que > à 24px */
@@ -72,4 +78,27 @@ footer {
 
 h1 {
 	font-size: max(3vw, 48px);
+	font-family: typewritter;
+	
+}
+
+.btn {
+ 	display:flex;
+ 	flex-direction: column;	
+ 	
+ 	& a {
+ 		width: fit-content;
+ 		background:#eee;
+ 		padding: 16px 24px;
+ 		text-decoration: none;
+ 		margin: 16px 0;
+ 		border-radius: 50px;
+ 		color: black;
+ 		transition: all 0.1s ease-in-out;
+ 		
+ 		&:hover {
+			color: white;
+			background: black 		
+ 		}
+ 	}
 }
