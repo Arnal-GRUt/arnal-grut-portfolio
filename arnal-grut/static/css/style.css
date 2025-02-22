@@ -82,7 +82,8 @@ main {
 }
 footer {
 	/*background: #eee;*/
-	background: var(--grut-light-grey) !important;
+	/*background: var(--grut-light-grey) !important;*/
+		background: #ededed !important;
 	padding: 24px;
 	text-align: center;
 }
