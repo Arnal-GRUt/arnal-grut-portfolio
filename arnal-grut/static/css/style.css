@@ -9,7 +9,7 @@
 :root {
 	--grut-yellow : #FEFC49;
 	--grut-carbon-grey : #344D66;
-	--grut-light-grey: color-mix(in srgb, var(--grut-carbon-grey), white 20%);
+	--grut-light-grey: color-mix(in srgb, var(--grut-carbon-grey) 20%, white);
 	--grut-red : #CB2121;
 	--grut-black: #1A1213;
 }
@@ -81,7 +81,6 @@ main {
 	padding: max(5vw, 24px); /* 5vw tant que > à 24px */
 }
 footer {
-	/*background: #eee;*/
 	background-color: var(--grut-light-grey) !important;
 	padding: 24px;
 	text-align: center;
