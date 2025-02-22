@@ -5,13 +5,20 @@ title = 'My New Hugo Site'
 [menus]
   [[menus.header]]
     name = 'Accueil'
-    url = '/'
-    weight = 10
+    url = 0
+    weight = 
   [[menus.header]]
-    name = 'Contact'
+    name = 'Gribouille'
     url = '/contact'
-    weight = 20
-
+    weight = 1
+[[menus.header]]
+    name = 'Écritouille'
+    url = '/contact'
+    weight = 2
+[[menus.header]]
+    name = 'Webouille'
+    url = '/contact'
+    weight = 3
 
 [markup]
   [markup.goldmark]
