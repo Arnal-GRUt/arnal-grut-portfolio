@@ -9,7 +9,7 @@
 :root {
 	--grut-yellow : #FEFC49;
 	--grut-carbon-grey : #344D66;
-	--grut-light-grey: color-mix(in srgb, var(--grut-carbon-grey) 20%, white);
+	--grut-light-grey: color-mix(in srgb, var(--grut-carbon-grey) 15%, white);
 	--grut-red : #CB2121;
 	--grut-black: #1A1213;
 }
@@ -74,6 +74,12 @@ nav ul {
 	display:flex;
 	gap: max(2vw, 24px);
 	padding: 16px 24px;
+	
+	& li a {
+		font-family: "Special Elite", serif;
+  		font-weight: 400;
+  		font-style: normal;
+  	}
 }
 
 main {
