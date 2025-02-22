@@ -79,6 +79,8 @@ nav ul {
 		font-family: "Special Elite", serif;
   		font-weight: 400;
   		font-style: normal;
+  		text-decoration: none;
+  		color: var(--grut-carbon-grey);
   	}
 }
 
