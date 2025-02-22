@@ -1,6 +1,17 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+    [menus]
+  [[menus.header]]
+    name = 'Accueil'
+    url = '/'
+    weight = 10
+  [[menus.header]]
+    name = 'Contact'
+    url = '/contact'
+    weight = 20
+
 
 [markup]
   [markup.goldmark]
