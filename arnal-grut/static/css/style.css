@@ -4,6 +4,16 @@
    License: none (public domain)
 */
 
+/* ROOT */
+
+:root {
+	--grut-yellow : #FEFC49;
+	--grut-carbone-grey : #344D66;
+	--grut-light-grey: color-mix(in srgb var(--grut-carbone-grey), white 10%);
+	--grut-red : #CB2121;
+	--grut-black: #1A1213;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,14 +57,14 @@ table {
 	border-spacing: 0;
 }
 html {
-	background: black;
+	background: var(--grut-black);
 	display: flex;
 	justify-content: center;
 }
 body {
 	max-width: 90vw;
 	width: 100%;
-	background: white;
+	background: whitesmoke;
 	flex-direction: column;
 	justify-content: space-between;
 	display:flex;
@@ -71,24 +81,24 @@ main {
 	padding: max(5vw, 24px); /* 5vw tant que > à 24px */
 }
 footer {
-	background: #eee;
+	/*background: #eee;*/
+	background: var(--grut-light-grey);
 	padding: 24px;
 	text-align: center;
 }
 
 h1 {
 	font-size: max(3vw, 48px);
-	font-family: typewritter;
-	
+	font-family: typewritter;	
 }
 
 .btn {
  	display:flex;
- 	flex-direction: column;	
+ 	flex-direction: column;
  	
  	& a {
  		width: fit-content;
- 		background:#eee;
+ 		background:var(--grut-light-grey);
  		padding: 16px 24px;
  		text-decoration: none;
  		margin: 16px 0;
