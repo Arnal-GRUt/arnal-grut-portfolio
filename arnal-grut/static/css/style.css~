@@ -9,7 +9,7 @@
 :root {
 	--grut-yellow : #FEFC49;
 	--grut-carbon-grey : #344D66;
-	--grut-light-grey: color-mix(in srgb, var(--grut-carbon-grey) 20%, white);
+	--grut-light-grey: color-mix(in srgb, var(--grut-carbon-grey) 15%, white);
 	--grut-red : #CB2121;
 	--grut-black: #1A1213;
 }
