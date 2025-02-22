@@ -1,8 +1,8 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
-    [menus]
+[menus]
   [[menus.header]]
     name = 'Accueil'
     url = '/'
