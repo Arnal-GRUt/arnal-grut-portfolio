@@ -83,7 +83,7 @@ nav ul {
   		color: var(--grut-carbon-grey);
   	}
 }
-
+/******************************************************** MAIN HOME */
 main {
 	height: 100vh;
 	padding: max(5vw, 24px); /* 5vw tant que > à 24px */
@@ -94,9 +94,13 @@ footer {
 	text-align: center;
 }
 
+h1, h2, h3 {
+	font-family: "Special Elite", serif;
+}
+
 h1 {
 	font-size: max(3vw, 48px);
-	font-family: typewritter;	
+	letter-spacing: 1;
 }
 
 .btn {
