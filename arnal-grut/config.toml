@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Mon PF'
 
 [menus]
   [[menus.header]]
@@ -26,3 +26,4 @@ title = 'My New Hugo Site'
       [markup.goldmark.parser.attribute]
         block = true
         title = true
+        hardWraps = true
