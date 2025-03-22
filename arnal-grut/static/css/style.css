@@ -101,6 +101,7 @@ footer {
 
 h1, h2, h3, li a {
 	font-family: "Special Elite", serif;
+	line-height: 1.1em;
 }
 p {
 	font-family: "Open-sans", sans-serif;
