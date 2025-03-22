@@ -84,6 +84,11 @@ nav ul {
 }
 
 /******************************************************** MAIN HOME */
+/* -- logo GRUt-point */
+.logo-grut img {
+	height: 4.1rem;
+	padding-bottom: 24px;
+}
 main {
 	height: 100vh;
 	padding: max(5vw, 24px); /* 5vw tant que > à 24px */
