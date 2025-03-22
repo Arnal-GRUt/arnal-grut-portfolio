@@ -84,11 +84,6 @@ nav ul {
 }
 
 /******************************************************** MAIN HOME */
-/* -- logo GRUt-point */
-.logo-grut img {
-	height: 3rem;
-	padding-bottom: 24px;
-}
 main {
 	max-width: 1920px;
 	height: 100vh;
@@ -99,10 +94,28 @@ main {
   	background-attachment: fixed;
   	background-position-y: 10%;
 }
+
+/* -- logo GRUt-point */
+.logo-grut {	
+	& img {
+		height: 3rem;
+		padding-bottom: 24px;
+		transition: all 0.3s ease-in-out;
+	}
+	& img:hover {
+		transform:scale(1.05);
+	}
+}
+
+/******************************************************** FOOTER */
 footer {
 	background-color: var(--grut-light-grey) !important;
 	padding: 24px;
 	text-align: center;
+}
+
+* {
+	color: var(--grut-black);
 }
 
 h1, h2, h3, li a {

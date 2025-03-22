@@ -2,7 +2,7 @@
 title: "Page d'accueil"
 ---
 
-![Image](../resources/_gen/images/logo-grut-point.svg "icon")
+[![Image](../resources/_gen/images/logo-grut-point.svg "GRUt logo")](/)
 {.logo-grut}
 
 Salut,\
