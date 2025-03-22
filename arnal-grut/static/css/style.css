@@ -104,8 +104,9 @@ p {
 
 h1 {
 	font-size: max(3vw, 48px);
-	letter-spacing: 1em;
+	letter-spacing: 0.05em;
 	padding-bottom: 1rem;
+	color:var(--grut-red);
 }
 
 .btn {
