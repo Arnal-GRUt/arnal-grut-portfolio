@@ -115,7 +115,7 @@ p {
 }
 
 h1 {
-	font-size: max(2vw, 48px);
+	font-size: max(1vw, 24px);
 	letter-spacing: 0.05em;
 	padding-bottom: 1rem;
 }
