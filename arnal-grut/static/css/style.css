@@ -101,7 +101,7 @@ main {
 	& img {
 		height: 3rem;
 		padding-bottom: 24px;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 	}
 	& img:hover {
 		transform:scale(1.05);
@@ -118,6 +118,7 @@ footer {
 	display: flex;
 	flex-direction: column;	
 	background-color: var(--grut-black);
+	position: fixed;
 
 	& [class*="section-"] {
 		display: flex;
