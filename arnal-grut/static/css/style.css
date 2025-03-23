@@ -86,7 +86,7 @@ nav ul {
 /******************************************************** MAIN HOME */
 main {
 	max-width: 1920px;
-	height: 100vh;
+	height: 100%
 	padding: max(5vw, 24px); /* 5vw tant que > à 24px */
 	background: url(../resources/_gen/images/background-home.png);
 	background-size: 90%;
@@ -109,9 +109,14 @@ main {
 
 /******************************************************** FOOTER */
 footer {
-	background-color: var(--grut-light-grey) !important;
-	padding: 24px;
-	text-align: center;
+  background-color: var(--grut-light-grey) !important;
+  padding: 24px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-content: space-evenly;
 }
 
 * {
